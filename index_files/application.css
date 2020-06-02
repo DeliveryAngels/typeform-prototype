@@ -1,0 +1,592 @@
+/* line 1, app/assets/stylesheets/forms.scss */
+.horizontal-number-control.activated input[type="number"] {
+  max-width: 100%;
+  height: 3rem;
+}
+
+/* line 7, app/assets/stylesheets/forms.scss */
+.horizontal-number-control button {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 110%;
+  text-align: center;
+  background-color: #a20909;
+  width: 2.5rem;
+  height: 2.8rem;
+  border: 0;
+  color: white;
+}
+
+/* line 19, app/assets/stylesheets/forms.scss */
+.horizontal-number-control button.step- {
+  margin-right: 5px;
+}
+
+/* line 23, app/assets/stylesheets/forms.scss */
+.horizontal-number-control button:hover {
+  background-color: #ca1919;
+}
+
+/* line 29, app/assets/stylesheets/forms.scss */
+.horizontal-number-control.activated input::-webkit-outer-spin-button,
+.horizontal-number-control.activated input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* line 35, app/assets/stylesheets/forms.scss */
+.horizontal-number-control.activated input[type=number] {
+  -moz-appearance: textfield;
+  text-align: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+@import url(https://use.fontawesome.com/releases/v5.0.6/css/all.css);
+/* line 20, app/assets/stylesheets/application.scss */
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 25, app/assets/stylesheets/application.scss */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* line 32, app/assets/stylesheets/application.scss */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+  Background Colours
+*/
+/* line 44, app/assets/stylesheets/application.scss */
+.blue-bg {
+  background-color: #EFFBFD;
+}
+
+/* line 49, app/assets/stylesheets/application.scss */
+section.intro {
+  background-color: #00354E;
+}
+
+/* line 53, app/assets/stylesheets/application.scss */
+section.intro p {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 3.7rem;
+  margin: 0;
+}
+
+/* line 60, app/assets/stylesheets/application.scss */
+.home-choices .choice h2 {
+  font-size: 2.6rem;
+}
+
+/* line 64, app/assets/stylesheets/application.scss */
+.home-choices .choice p {
+  font-size: 2rem;
+  color: #00354E;
+}
+
+/* line 69, app/assets/stylesheets/application.scss */
+section.home-choices div.choice:nth-child(even) {
+  background-color: #EFFBFD;
+}
+
+/*
+  Text styles
+*/
+/* line 80, app/assets/stylesheets/application.scss */
+p, li, blockquote, span,
+label, input, textarea, a {
+  color: #00354E;
+  font-size: 2rem;
+}
+
+/* line 86, app/assets/stylesheets/application.scss */
+h1, h2, h2.icon span {
+  color: #84BD57;
+}
+
+/* line 90, app/assets/stylesheets/application.scss */
+label {
+  font-weight: 400;
+}
+
+/* line 94, app/assets/stylesheets/application.scss */
+p, ul li, span {
+  font-size: 2rem;
+}
+
+/* line 98, app/assets/stylesheets/application.scss */
+p, ul {
+  margin: 1.8rem 0;
+}
+
+/* line 102, app/assets/stylesheets/application.scss */
+p.subtext {
+  font-size: 1.2rem;
+}
+
+/* line 106, app/assets/stylesheets/application.scss */
+strong.green {
+  color: #84BD57;
+}
+
+/*
+  List styles
+*/
+/* line 114, app/assets/stylesheets/application.scss */
+section ul li {
+  list-style: none;
+}
+
+/* line 118, app/assets/stylesheets/application.scss */
+section ul li:before {
+  color: #64D8EF;
+  content: "\2022";
+  display: inline-block;
+  width: 1em;
+}
+
+/*
+  Button Styles
+*/
+/* line 129, app/assets/stylesheets/application.scss */
+input[type="submit"],
+input.-button,
+a.-button {
+  background-color: #D94B50;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding: 5px 25px;
+  padding-right: 4.5rem;
+  border: 1px solid #D94B50;
+  background-position: 97%;
+  background-repeat: no-repeat;
+  background-image: url(/index_files/chevron.svg);
+  background-size: 2.8rem;
+}
+
+/*
+  Scaffolding styles
+*/
+/* line 150, app/assets/stylesheets/application.scss */
+section, header, footer {
+  width: 100%;
+}
+
+/*.region {
+  margin: 0 auto;
+  width: 900px;
+}*/
+/*@media (max-width: 1050px) {
+  .region {
+    margin: 0 auto;
+    width: 400px;
+    padding: 40px 40px;
+  }
+  .region-header {
+    padding: 0px 40px;
+  }
+  img.site-logo {
+    width: 100%;
+    max-width:18rem;
+  }
+
+}
+*/
+/*@media (max-width: 400px) { */
+/* line 176, app/assets/stylesheets/application.scss */
+.region {
+  padding: 40px 40px;
+}
+
+/* line 180, app/assets/stylesheets/application.scss */
+.container, .region {
+  margin: 0 auto;
+  width: 400px;
+}
+
+/* line 184, app/assets/stylesheets/application.scss */
+.container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* line 188, app/assets/stylesheets/application.scss */
+.region-header {
+  padding: 0px 40px;
+}
+
+/*}*/
+/*
+  Symptoms Section
+*/
+/* line 199, app/assets/stylesheets/application.scss */
+section.symptoms p,
+section.symptoms li {
+  color: #ffffff;
+}
+
+/*
+  Forms
+*/
+/* line 208, app/assets/stylesheets/application.scss */
+input {
+  max-width: 100%;
+}
+
+/* line 212, app/assets/stylesheets/application.scss */
+input[type="tel"],
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: 4.5rem;
+  padding-left: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 224, app/assets/stylesheets/application.scss */
+input[type="number"] {
+  width: 3rem;
+  border: 0;
+}
+
+/* line 229, app/assets/stylesheets/application.scss */
+.category-fields .form-field {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+/* line 234, app/assets/stylesheets/application.scss */
+.form-field {
+  margin-bottom: 2rem;
+}
+
+/*
+  Navigation & header
+*/
+/* line 244, app/assets/stylesheets/application.scss */
+header {
+  height: 70px;
+  border-bottom: 1px solid grey;
+  padding-top: 1.5rem;
+}
+
+/* line 250, app/assets/stylesheets/application.scss */
+footer {
+  height: 20px;
+  background-color: #00354E;
+}
+
+/* line 255, app/assets/stylesheets/application.scss */
+main {
+  min-height: 80vh;
+}
+
+/* line 259, app/assets/stylesheets/application.scss */
+.category-fields div {
+  border-bottom: 0.5px solid grey;
+  padding: 3rem 0;
+}
+
+/* line 268, app/assets/stylesheets/application.scss */
+.category-fields-header {
+  background-color: #00354E;
+  height: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 277, app/assets/stylesheets/application.scss */
+.category-fields-header .container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* line 281, app/assets/stylesheets/application.scss */
+.category-fields-header span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* line 287, app/assets/stylesheets/application.scss */
+.category-header {
+  font-size: 2.6rem;
+  color: #00354E;
+}
+
+/*
+  headings
+*/
+/* line 296, app/assets/stylesheets/application.scss */
+h2.pick-items {
+  font-size: 3.2rem;
+}
+
+/*
+  Sign-up form
+*/
+/* line 308, app/assets/stylesheets/application.scss */
+h2.icon {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+/* line 314, app/assets/stylesheets/application.scss */
+h2.large, h2.large span {
+  font-size: 3.2rem;
+}
+
+/* line 318, app/assets/stylesheets/application.scss */
+svg.icon {
+  height: 9rem;
+  width: 9rem;
+}
+
+/**
+ navigation example
+ **/
+/* line 331, app/assets/stylesheets/application.scss */
+.fab {
+  font-family: FontAwesome;
+}
+
+/* line 335, app/assets/stylesheets/application.scss */
+i.fab {
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* line 340, app/assets/stylesheets/application.scss */
+nav .social-media a {
+  text-decoration: none;
+}
+
+/* line 344, app/assets/stylesheets/application.scss */
+.screen-reader-text {
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+}
+
+/************************************************/
+/****************** NAVIGATION ******************/
+/************************************************/
+/* line 358, app/assets/stylesheets/application.scss */
+nav {
+  background: white;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/*** INPUT ***/
+/* line 368, app/assets/stylesheets/application.scss */
+nav input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/*** LABEL ***/
+/* line 375, app/assets/stylesheets/application.scss */
+nav label {
+  cursor: pointer;
+}
+
+/* line 379, app/assets/stylesheets/application.scss */
+nav .container {
+  display: grid;
+  grid-template-columns: 93% 7%;
+}
+
+/* line 384, app/assets/stylesheets/application.scss */
+header nav h1 {
+  margin-top: 0.9rem;
+  max-height: 3rem;
+}
+
+/* line 389, app/assets/stylesheets/application.scss */
+header nav h1 a span {
+  letter-spacing: -999999px;
+  font-size: 0px;
+  height: 3rem;
+  width: 20rem;
+}
+
+/* line 396, app/assets/stylesheets/application.scss */
+header nav h1 i.logo {
+  height: 3rem;
+  max-width: 21rem;
+  background-repeat: no-repeat;
+  background-image: url(/index_files/logo.svg);
+  display: block;
+}
+
+/* Hamburger Icon */
+/* line 405, app/assets/stylesheets/application.scss */
+#menu-icon i,
+#menu-icon i:before,
+#menu-icon i:after {
+  background: #fff;
+  border-radius: 0.2em;
+  height: 0.25rem;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+/* line 415, app/assets/stylesheets/application.scss */
+#menu-icon i {
+  display: inline-block;
+  max-width: 2rem;
+  position: relative;
+}
+
+/* line 421, app/assets/stylesheets/application.scss */
+#menu-icon i:before,
+#menu-icon i:after {
+  content: '';
+  left: 0;
+  position: absolute;
+}
+
+/* line 428, app/assets/stylesheets/application.scss */
+#menu-icon i:before {
+  top: -0.3em;
+}
+
+/* line 432, app/assets/stylesheets/application.scss */
+#menu-icon i:after {
+  bottom: -0.3em;
+}
+
+/* line 436, app/assets/stylesheets/application.scss */
+#menu-icon {
+  background: #84BD57;
+  border-radius: 30px;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Close Icon */
+/* line 448, app/assets/stylesheets/application.scss */
+nav input[type=checkbox]:checked + label #menu-icon i {
+  background: transparent;
+}
+
+/* line 452, app/assets/stylesheets/application.scss */
+nav input[type=checkbox]:checked + label #menu-icon i:before {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+/* line 457, app/assets/stylesheets/application.scss */
+nav input[type=checkbox]:checked + label #menu-icon i:after {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+/*** MENU ***/
+/* Overlay */
+/* line 464, app/assets/stylesheets/application.scss */
+nav input:checked ~ #overlay {
+  background: #e5e5e5;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* List */
+/* line 477, app/assets/stylesheets/application.scss */
+nav ul {
+  font-size: 1.5em;
+  list-style: none;
+  margin: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+}
+
+/* line 488, app/assets/stylesheets/application.scss */
+nav input:checked ~ ul {
+  margin: 1em;
+  max-height: inherit;
+  opacity: 1;
+}
+
+/* line 494, app/assets/stylesheets/application.scss */
+nav ul > li {
+  margin: 0.5em 0;
+}
+
+/* line 498, app/assets/stylesheets/application.scss */
+nav ul a {
+  color: #1d1f20 !important;
+  text-decoration: none;
+}
+
+/* line 503, app/assets/stylesheets/application.scss */
+nav ul a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media */
+/* line 508, app/assets/stylesheets/application.scss */
+nav ul#social-media > li {
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+/* line 515, app/assets/stylesheets/application.scss */
+.choice p {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+/*# sourceMappingURL=application.css-ec95d937f81b17f85eaa6a0478ed29c75745186f1a8538d7204712fb591d243b.map */
