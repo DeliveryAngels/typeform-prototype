@@ -186,7 +186,7 @@ a.-button {
   border: 1px solid #D94B50;
   background-position: 97%;
   background-repeat: no-repeat;
-  background-image: url(/index_files/chevron.svg);
+  background-image: url(./index_files/chevron.svg);
   background-size: 2.8rem;
 }
 
@@ -453,7 +453,7 @@ header nav h1 i.logo {
   height: 3rem;
   max-width: 21rem;
   background-repeat: no-repeat;
-  background-image: url(/index_files/logo.svg);
+  background-image: url(./index_files/logo.svg);
   display: block;
 }
 
