@@ -1,4 +1,6 @@
-# typeform-prototype
+# DeliveryAngels Beta
+
+A proof of concept using typeform, trello and zapier to connect people with a deliveyr volunteer.
 
 ## Contributing
 
